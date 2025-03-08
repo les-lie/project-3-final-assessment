@@ -141,8 +141,8 @@ nav ul li {
   margin: 1rem auto;
 }
 .slide {
-  display: none;
+  display: none !important;
 }
 .slide.active {
-  display: block;
+  display: block !important;
 }
