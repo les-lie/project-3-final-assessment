@@ -135,3 +135,14 @@ nav ul li {
     padding: 4%;
   }
 }
+
+#slider {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+.slide {
+  display: none;
+}
+.slide.active {
+  display: block;
+}

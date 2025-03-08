@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,22 +8,29 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/script.js" defer></script>
   </head>
-  <body>
-    <ul>
+  <body id="books-page">
+    <nav>
+      <ul>
         <li>index.html</li>
         <li>hobbies.html</li>
         <li>resume.html</li>
         <li>map.html</li>
       </ul>
-      <h1>Favorite Books</h1>
+    </nav>
+    <h1>Favorite Books</h1>
+    <div id="slider">
+      <img src="images/book-cover.webp" alt="Slide 1" class="slide active">
+      <img src="images/hiking-photo.png" alt="Slide 2" class="slide">
+      <img src="images/hobby-photo.jpeg" alt="Slide 3" class="slide">
+    </div>
     <h2>The Great Gatsby</h2>
     <p>By F. Scott Fitzgerald</p>
     <img src="images/book-cover.webp" alt="Great Gatsby cover">
     <h2>1984</h2>
     <p>By George Orwell</p>
     <audio controls>
-        <source src="media/sample-audio.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
+      <source src="media/sample-audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
   </body>
 </html>
