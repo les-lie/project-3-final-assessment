@@ -1,0 +1,104 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Five shared styles across all pages */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Centered horizontal navigation */
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #f5f5f5;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+/* Resume (Fixed width) */
+#resume-page {
+  width: 800px;
+  margin: 2rem auto;
+}
+
+#resume-page img {
+  border: 2px solid #333;
+  margin: 1rem 0;
+}
+
+#resume-page h2 {
+  color: #2c3e50;
+  border-bottom: 1px solid #ddd;
+}
+
+#resume-page audio {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+/* Hobbies (Fluid layout) */
+#hobbies-page {
+  padding: 2%;
+}
+
+#hobbies-page h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#hobbies-page img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  width: 30%;
+}
+
+#hobbies-page h2 {
+  color: #27ae60;
+}
+
+/* Books */
+#books-page {
+  margin: 2rem;
+}
+
+#books-page h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#books-page img {
+  display: block;
+  margin: 1rem auto;
+  width: 200px;
+}
+
+#books-page p {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+/* Media query example */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+}
